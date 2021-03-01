@@ -11,7 +11,7 @@ nav{
 }
 
 .parallax{
-	width: 100%;
+
 	height: 100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../imagenes/cover.jpg");
 	background-size: cover;
@@ -28,4 +28,10 @@ nav{
 	height: auto;
 	overflow: hidden;
 	background-attachment: fixed;
+}
+
+@media screen and (max-width: 360px){
+	.parallax{
+		width: 100%;
+	}
 }

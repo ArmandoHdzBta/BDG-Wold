@@ -2,40 +2,41 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="../../public/css/style.css">
 	<script src="https://kit.fontawesome.com/a665ad6c22.js" crossorigin="anonymous"></script>
+	<title>Home</title>
+
 </head>
 <body class="bg-light">
 	<!-- NAV BAR -->
-	<nav class="navbar navbar-expand-sm navbar-dark bg-black col-12 position-fixed">
-	  	<div class="container-fluid">
-	    	<a class="navbar-brand" href="#"><h2>BDG-World</h2></a>
-	    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		      	<span class="navbar-toggler-icon"></span>
-		    </button>
-    		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-	      		<ul class="navbar-nav ml-auto">
-	        		<li class="nav-item">
-	        			<a class="nav-link active" aria-current="page" href="#">Home</a>
-	        		</li>
-	        		<li class="nav-item">
-	        			<a class="nav-link" href="#">Articulos</a>
-	        		</li>
-	        		<li class="nav-item">
-	        			<a class="nav-link" href="#">Cconvocatorias</a>
-	        		</li>
-	        		<li class="nav-item">
-	        			<a class="nav-link" href="#contacto">Contacto</a>
-	        		</li>
-	        		<li class="nav-item">
-	        			<a class="nav-link" href="#">Sobre nosotros</a>
-	        		</li>
-	        	</ul>
-		  	</div>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-black ml-0 col-12 position-fixed">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><h2>BDG-World</h2></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Articulos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Cconvocatorias</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contacto">Contacto</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sobre nosotros</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 	<!-- COVER -->
@@ -49,47 +50,47 @@
 		</div>
 	</div>
 	<!-- ARTICLES TO SELL CONTAINER -->
-	<div class="container col-xxl-12 col-xl-12 col-lg-12 mt-5 p-2 bg-black" data-aos="fade-zoom-in" data-aos-delay="800">
+	<div class="container-fluid col-xxl-9 col-xl-9 col-lg-9 mt-5 bg-black" data-aos="fade-zoom-in" data-aos-delay="800">
 		<h1 class="text-center text-white p-2">Articulos</h1>
 		<div class="row">
 			<div class="col-xxl-3 col-xl-3 col-lg-9 col-md-6 col-sm-12 ml-2 mb-3 mt-3" data-aos="fade-down" data-aos-offset="360">
 				<div class="card">
-				  	<img src="../../public/imagenes/tamborCompleto.jpg" class="card-img-top w-75 m-auto" alt="...">
-				  	<div class="card-body">
-				    	<h5 class="card-title">Caja completa</h5>
-				    	<p class="card-text">Contenido: Caja reglamentaria, 1 par de baquetas, porta cajas</p>
-				    	<a href="#" class="btn btn-primary">Comprar</a>
-				  	</div>
+					<img src="../../public/imagenes/tamborCompleto.jpg" class="card-img-top w-75 m-auto" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Caja completa</h5>
+						<p class="card-text">Contenido: Caja reglamentaria, 1 par de baquetas, porta cajas</p>
+						<a href="#" class="btn btn-primary">Comprar</a>
+					</div>
 				</div>
 			</div>
 			<div class="col-xxl-3 col-xl-3 col-lg-9 col-md-6 col-sm-12 ml-2 mb-3 mt-3" data-aos="fade-down" data-aos-offset="360">
 				<div class="card">
-  					<img src="../../public/imagenes/corneta.jpg" class="card-img-top w-75 m-auto" alt="...">
-				  	<div class="card-body">
-				    	<h5 class="card-title">Corneta</h5>
-				    	<p class="card-text">Corneta reglamentaria</p>
-				    	<a href="#" class="btn btn-primary">Comprar</a>
-				  </div>
+					<img src="../../public/imagenes/corneta.jpg" class="card-img-top w-75 m-auto" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Corneta</h5>
+						<p class="card-text">Corneta reglamentaria</p>
+						<a href="#" class="btn btn-primary">Comprar</a>
+					</div>
 				</div>
 			</div>
 			<div class="col-xxl-3 col-xl-3 col-lg-9 col-md-6 col-sm-12 ml-2 mb-3 mt-3" data-aos="fade-down" data-aos-offset="360">
 				<div class="card">
-  					<img src="../../public/imagenes/baquetas.jpg" class="card-img-top w-75 m-auto" alt="...">
-				  	<div class="card-body">
-				    	<h5 class="card-title">Baquetas</h5>
-				    	<p class="card-text">Un par de baquetas reglamentarias para tambor</p>
-				    	<a href="#" class="btn btn-primary">Comprar</a>
-				  </div>
+					<img src="../../public/imagenes/baquetas.jpg" class="card-img-top w-75 m-auto" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Baquetas</h5>
+						<p class="card-text">Un par de baquetas reglamentarias para tambor</p>
+						<a href="#" class="btn btn-primary">Comprar</a>
+					</div>
 				</div>
 			</div>
 			<div class="col-xxl-3 col-xl-3 col-lg-9 col-md-6 col-sm-12 ml-2 mb-3 mt-3" data-aos="fade-down" data-aos-offset="360">
 				<div class="card">
-  					<img src="../../public/imagenes/vestidura.jpg" class="card-img-top w-75 m-auto" alt="...">
-				  	<div class="card-body">
-				    	<h5 class="card-title">Vestidura</h5>
-				    	<p class="card-text">Vestidura para corneta reglamentaria</p>
-				    	<a href="#" class="btn btn-primary">Comprar</a>
-				  </div>
+					<img src="../../public/imagenes/vestidura.jpg" class="card-img-top w-75 m-auto" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Vestidura</h5>
+						<p class="card-text">Vestidura para corneta reglamentaria</p>
+						<a href="#" class="btn btn-primary">Comprar</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -102,30 +103,30 @@
 				<div class="row">
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 form-group">
 						<div class="input-group mb-3">
-						  	<span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
-						  	<input type="text" placeholder="Nombre" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+							<span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
+							<input type="text" placeholder="Nombre" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 form-group">
 						<div class="input-group mb-3">
-						  	<span class="input-group-text" id="inputGroup-sizing-default">Apellidos</span>
-						  	<input type="text" placeholder="Apellido" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+							<span class="input-group-text" id="inputGroup-sizing-default">Apellidos</span>
+							<input type="text" placeholder="Apellido" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col form-group">
 						<div class="input-group mb-3">
-						  	<span class="input-group-text" id="inputGroup-sizing-default">@</span>
-						  	<input type="text" placeholder="Correo" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+							<span class="input-group-text" id="inputGroup-sizing-default">@</span>
+							<input type="text" placeholder="Correo" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col form-group">
 						<div class="input-group">
-						  	<span class="input-group-text">Mensaje</span>
-						  	<textarea class="form-control" placeholder="Pregunta, sugerencia" aria-label="With textarea"></textarea>
+							<span class="input-group-text">Mensaje</span>
+							<textarea class="form-control" placeholder="Pregunta, sugerencia" aria-label="With textarea"></textarea>
 						</div>
 					</div>
 				</div>
@@ -138,25 +139,25 @@
 		</div>
 	</div>
 	<!-- CONTAINER TO SHOW ALL ANNOUNCEMENT -->
-	<div class="container col-lg-9 mt-5 mb-5 p-2 bg-black">
+	<div class="container-fluid col-lg-9 mt-5 mb-5 bg-black">
 		<h1 class="text-center text-white p-2">Convocatorias</h1>
-		<div class="row d-flex justify-content-center">
-			<div class="col-xxl-3 col-xl-3 col-lg-9 col-md-6 col-sm-12 ml-2 mb-3 mt-3 d-flex justify-content-center align-items-center" data-aos="zoom-out" data-aos-offset="360">
+		<div class="row container-fluid d-flex justify-content-center">
+			<div class="container-fluid col-xxl-3 col-xl-3 col-lg-9 col-md-6 ml-2 mb-3 mt-3 d-flex justify-content-center align-items-center" data-aos="zoom-out" data-aos-offset="360">
 				<div class="card" style="width: 18rem;">
-				  	<div class="card-body">
-				    	<h5 class="card-title">Calderon 2021</h5>
-				    	<p class="card-text">Se hacerca la maas grande competencia de bandas de guerra, no te lo pierdas y participa</p>
-				    	<a href="#" download="" class="card-link">Descargar convocatoria</a>
-				  	</div>
+					<div class="card-body">
+						<h5 class="card-title">Calderon 2021</h5>
+						<p class="card-text">Se hacerca la maas grande competencia de bandas de guerra, no te lo pierdas y participa</p>
+						<a href="#" download="" class="card-link">Descargar convocatoria</a>
+					</div>
 				</div>
 			</div>
-			<div class="col-xxl-3 col-xl-3 col-lg-9 col-md-6 col-sm-12 ml-2 mb-3 mt-3 d-flex justify-content-center align-items-center" data-aos="zoom-out" data-aos-offset="360">
+			<div class="container-fluid col-xxl-3 col-xl-3 col-lg-9 col-md-6 ml-2 mb-3 mt-3 d-flex justify-content-center align-items-center" data-aos="zoom-out" data-aos-offset="360">
 				<div class="card" style="width: 18rem;">
-				  	<div class="card-body">
-				    	<h5 class="card-title">Concurso del pacifico</h5>
-				    	<p class="card-text">No te lo pierdas y se parte del concurso del pacifico para Bandas de Guerra</p>
-				    	<a href="#" download="" class="card-link">Descargar convocatoria</a>
-				  	</div>
+					<div class="card-body">
+						<h5 class="card-title">Concurso del pacifico</h5>
+						<p class="card-text">No te lo pierdas y se parte del concurso del pacifico para Bandas de Guerra</p>
+						<a href="#" download="" class="card-link">Descargar convocatoria</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -177,7 +178,7 @@
 		</div>
 	</div>
 	<!-- FOOTER -->
-	<div class="container-fluid p-3 text-primary bg-black footer">
+	<div class="container-fluid text-primary bg-black footer">
 		<div class="row row-cols-ms-3 mb-2">
 			<div class="col">
 				<h5 class="text-center text-white">About Us</h5>
@@ -212,13 +213,14 @@
 			</div>
 		</div>
 	</div>
+
 	<!-- SCRIPTS BOOTSTRAP -->
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 	<!-- ANIMATION SCRIPT -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
-	  	AOS.init();
+		AOS.init();
 	</script>
 </body>
 </html>
